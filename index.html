@@ -37,6 +37,15 @@
 			
 
 				</style>
+				<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.min.js"> </script>
+
+				<script type="text/javascript">
+					$(document).ready(function() {
+						$('#subscribe').click(function () {
+						    alert ('Thanks You For Subscribe');
+						  });
+					});
+				</script>
 
 		</head>
 
@@ -66,7 +75,7 @@
 						        <a class="nav-link" href="TrackingNumber.html">Track Number</a>
 						      </li>
 						      <li class="nav-item">
-						        <a class="nav-link" href="#">Sell Your Shoes</a>
+						        <a class="nav-link" href="SellYourShoes.html">Sell Your Shoes</a>
 						      </li>
 						      <li class="nav-item">
 						        <a class="nav-link" href="ShoppingCart.html"><i class="fas fa-shopping-cart"></i></a>
@@ -160,7 +169,7 @@
 									 	<p class="Subscribe">
 						    			<form class="form-inline my-2 my-lg-0">
 									      <input class="form-control mr-sm-2" type="search" placeholder="Email" aria-label="Email">
-									      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Subscribe</button>
+									      <button id="subscribe" class="btn btn-outline-success my-2 my-sm-0" type="submit">Subscribe</button>
 						    			</form>
 						    			</p>
 						    			<a href="FAQ.html" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Asked Questions</a>
